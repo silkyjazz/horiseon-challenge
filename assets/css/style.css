@@ -32,10 +32,12 @@ nav {
     font-size: 20px;
 }
 
+/* targeting unordered list */
 nav ul {
     list-style-type: none;
 }
 
+/* targeting the list item in the ordered list inside the nav element */
 nav ul li {
     display: inline-block;
     margin-left: 25px;
@@ -70,6 +72,9 @@ p {
     margin-left: 25px;
 }
 
+/* Grouped selectors together to condense lines of code that held the same
+css styling properies */
+
 #lead, #brand, #cost  {
  margin-bottom: 32px;
     color: #ffffff;
@@ -101,6 +106,8 @@ aside {
     max-width: 150px;
 }
 
+/* Using group selector to shorten lines of code. Each id will have the
+same css properties */
  #search-engine-optimization,
  #online-reputation-management,
  #social-media-marketing {
